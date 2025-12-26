@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #0e0e0e;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #111, #1f1f1f);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #ff9800;
+    color: #000;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download {
+    background: #4caf50;
+    color: #000;
+}
+
+.info {
+    background: #2196f3;
+    color: #000;
+}
+
+.section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+}
+
+.section p, .section li {
+    color: #dddddd;
+}
+
+.section ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.dark {
+    background: #161616;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid #333;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0a0a0a;
+    color: #888;
+    font-size: 0.9rem;
+}
